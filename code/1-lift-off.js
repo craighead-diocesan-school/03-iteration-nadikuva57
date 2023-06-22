@@ -14,6 +14,13 @@ function liftOff() {
 }
 
 function make1() {
-  // copy and paste your code here when you get to the Make step
+  let count = 0
+  let maximum = prompt("Enter the Maximum:")
+  let increment = prompt("Enter the increment:")
+
+  while (count < maximum) {
+    alert(count)
+    count = count + increment
+  }
   
 }
