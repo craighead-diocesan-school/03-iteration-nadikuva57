@@ -18,13 +18,16 @@ function attendees() {
 
 function make2() {
   let count = 0
+  let next = 0
+  let i = 1
   let numOfNumbers = prompt("How many numbers do you want to add?")
   
-  while (count < numOfNumbers) {
+  while (i <= numOfNumbers) {
     let number = prompt("Enter a number:")
     count = count + 1
-    number = number + number
+    sum += Number(number)
+    
   }
-
-  alert(number) 
+  alert(sum) 
+  
 }
